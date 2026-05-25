@@ -56,7 +56,7 @@ export default function ShopSection() {
         <div className="shop-banner-card wood-block">
           <div className="shop-banner-img-wrap">
             <img 
-              src="/products_flatlay.png" 
+              src="/maniams-wooden-toys/products_flatlay.png" 
               alt="Maniams Design Studio Wooden Block Set Flatlay" 
               className="shop-banner-img"
               loading="lazy"

@@ -7,10 +7,11 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 /* ─────────────────────────────────────────────────────────── */
 
 const TOTAL_FRAMES = 192;
+const BASE_PATH = '/maniams-wooden-toys';
 
 // Build the public URL for each frame (1-indexed, zero-padded to 3 digits)
 const frameUrl = (n) =>
-  `/frames/ezgif-frame-${String(n).padStart(3, '0')}.jpg`;
+  `${BASE_PATH}/frames/ezgif-frame-${String(n).padStart(3, '0')}.jpg`;
 
 /**
  * Scroll breakpoints for content panels.
