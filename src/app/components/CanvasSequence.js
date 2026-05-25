@@ -400,17 +400,15 @@ export default function CanvasSequence() {
             aria-hidden={heroOpacity < 0.05}
             style={{ opacity: heroOpacity }}
           >
-            <div className="glass-cover-card">
-              <p className="hero-eyebrow">Maniams · Wooden Puzzle Set</p>
-              <h1 className="hero-headline">
-                <span className="hl-yellow">One Set.</span>
-                <span className="hl-white">Infinite</span>
-                <span className="hl-yellow">Possibilities.</span>
-              </h1>
-              <p className="hero-sub">
-                47 handcrafted wooden pieces. Endless forms. One extraordinary toy.
-              </p>
-            </div>
+            <p className="hero-eyebrow">Maniams · Wooden Puzzle Set</p>
+            <h1 className="hero-headline">
+              <span className="hl-yellow">One Set.</span>
+              <span className="hl-white">Infinite</span>
+              <span className="hl-yellow">Possibilities.</span>
+            </h1>
+            <p className="hero-sub">
+              47 handcrafted wooden pieces. Endless forms. One extraordinary toy.
+            </p>
 
             <div
               className="hero-scroll-cue"
@@ -482,22 +480,20 @@ export default function CanvasSequence() {
             aria-hidden={birdOp < 0.05}
             style={{ opacity: birdOp, pointerEvents: birdOp > 0.5 ? 'auto' : 'none' }}
           >
-            <div className="glass-cover-card">
-              <h2 className="ending-headline">
-                <span className="hl-yellow">Build</span>
-                <span className="hl-white">Anything.</span>
-              </h2>
-              <p className="ending-sub">
-                The only limit is your imagination.
-              </p>
-              <button
-                id="cta-discover"
-                className="cta-button glass-btn"
-                onClick={(e) => handleNavClick('shop', e)}
-              >
-                Discover the Set
-              </button>
-            </div>
+            <h2 className="ending-headline">
+              <span className="hl-yellow">Build</span>
+              <span className="hl-white">Anything.</span>
+            </h2>
+            <p className="ending-sub">
+              The only limit is your imagination.
+            </p>
+            <button
+              id="cta-discover"
+              className="cta-button glass-btn"
+              onClick={(e) => handleNavClick('shop', e)}
+            >
+              Discover the Set
+            </button>
           </div>
 
         </div>{/* /.canvas-sticky-wrap */}
